@@ -50,8 +50,27 @@ footer{
 }
 /* TABLET */
 @media (max-width: 960px){
-    header{
-        max-width: 672px;
-        width: 100%;
+    {
+        
+
+    }
+    sobre-mim{
+        height: 260vh;
+    }
+    .projetos{
+        height: 260vh;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    
+  
+    .projetos{
+        height: 200vh;
+    }
+    .contato{
+        height: 50vh;
+
     }
 }

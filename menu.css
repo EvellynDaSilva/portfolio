@@ -11,3 +11,8 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+@media(max-width:640px){
+    .menu{
+        display: none;
+    }
+}

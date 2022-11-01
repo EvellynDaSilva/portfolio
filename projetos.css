@@ -31,4 +31,27 @@
 .card:hover::before{
 
     transform: translateY(0%);
+
+}
+@media (max-width: 960px){
+    .projetos{
+        height: 370vh;
+        
+    }
+    .card-container{
+        flex-direction: column;
+        align-content: center;
+    }
+    .card-container{
+        width: 672px;
+        height: 420px;
+    }
+}
+
+@media(max-width:640px) {
+    .projetos{
+        height: 200vh;
+    }
+        
+    
 }
