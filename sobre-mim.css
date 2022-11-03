@@ -33,6 +33,7 @@
 }
 .description__text{
     font-size: 1.5rem;
+    color: #fff;
     line-height: 150%;
 }
 
@@ -46,6 +47,7 @@
 .skills__title{
     font-size: 3rem;
     color: var(--primary-color);
+    font-weight: 700;
 }
 
 .skills__icons{
@@ -70,22 +72,74 @@
 }
 
 .skills__icon span{
-    font-size: 1rem;
+    font-size: 2rem;
 }
+
+@media (max-width: 960px){
+    .sobre-mim{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+    .description__title{
+        text-align: left;
+        line-height: 0;
+    }
+    
+    .description{
+        height: 287px;
+        display: flex;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        
+    }
+
+    .skills{
+        padding-left: 10vw;
+        padding-right: 10vw;
+        display: flex;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .skills__icon{
+        width: 200px;
+        height: 200px;
+       
+    }
+
+    .skills__icons{
+        justify-content: space-evenly;
+        gap: 55px;
+    }
+    .skills__icons i{
+        font-size: 4.4rem;
+    }
+    .sikills__icon span{
+        font-size: 1.5rem;
+    }
+
+}
+
 
 @media (max-width:640px){
 
     .sobre-mim{
         display: flex;
         flex-direction: column;
-        text-align: justify;
-        height: 105vh;
+        height: 80vh;
     }
-    .sikills__icons{
-        flex-direction: column;
+    .skills__icon i{
+        font-size: 5.4rem;
         
     }
-    .description__text{
 
+    .sikills__icon span {
+        font-size: 2rem;
+        
     }
+    
 }

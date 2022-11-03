@@ -51,11 +51,41 @@
 .link-title{
     font-size: 1.5rem;
 }
-@media(max-width: 640px) {
+@media (max-width: 960px){
     .contato{
+      
+        height: 50vh;
+        grid-template-areas: 
+        "title title title"
+        "contato . link"
+        "social social social";
+        grid-template-rows: auto 400px 1fr;
+        padding: 0px 48px;
+
+    }
+    .contato-title{
+        text-align: center;
+    }
+    
+    
+}
+
+@media (max-width:640px){
+    .contato{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+    
+    .social-container{
+        display: flex;
         flex-direction: column;
     }
-    .li{
-        flex-direction: column;
+
+    .link-container{
+        text-align: center;
     }
+
 }

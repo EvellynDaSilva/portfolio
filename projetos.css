@@ -35,22 +35,40 @@
 }
 @media (max-width: 960px){
     .projetos{
-        height: 370vh;
+        height: 170vh;
         
     }
     .card-container{
         flex-direction: column;
         align-content: center;
+        
+        
     }
-    .card-container{
+    .card{
         width: 672px;
         height: 420px;
+        border-radius: 11px;
+        left: 19%;
+        
+        
+        
     }
+
+    .img{
+        height: 100%;
+        width: 100%;
+    }
+    
 }
 
 @media(max-width:640px) {
     .projetos{
-        height: 200vh;
+        height: 90vh;
+    }
+    .card {
+        width: 300px;
+        height: 187.5px;
+        left: 1%;
     }
         
     

@@ -17,12 +17,28 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+
+
+@media (max-width: 960px){
+   
+    
+    .home{
+        flex-direction: column;
+        text-align: center;
+    }
+   
+}
 @media (max-width:640px){
     .home{
     display: flex;
     flex-direction: column;
     text-align: center;
 
+    }
+    .home__photo{
+        height: 40%;
+        
     }
     .home__text{
         display: flex;

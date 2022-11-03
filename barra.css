@@ -1,0 +1,51 @@
+.container-barra{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: none;
+    align-items: center;
+    z-index: 2 ;
+    right: 30px;
+    top: 30px;
+    
+}
+
+.menu-barra, 
+.menu-barra::before,
+.menu-barra::after{
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: #fff;
+    height: 4px;
+    width: 36px;
+    border-radius: 5px;
+    transition: all 1s;
+
+}
+
+.menu-barra::before{
+    transform: translateY(-10px);
+}
+
+.menu-barra::after {
+    transform: translateY(10px);
+}
+
+.container-barra.active  .menu-barra{
+    background-color: transparent;
+}
+
+.container-barra.active .menu-barra::before{
+    transform: rotate(45deg);
+}
+
+.container-barra.active .menu-barra::after {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 960px){
+    .container-barra{
+        display: flex;
+    }
+}

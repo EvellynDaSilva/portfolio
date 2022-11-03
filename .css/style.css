@@ -2,6 +2,10 @@
     --primary-color:#fedc00;
     --icon-color:#252525;
 }
+html, body{
+    position: relative;
+    overflow-x: hidden;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -49,11 +53,12 @@ footer{
     border-top: 2px solid #fff;
 }
 /* TABLET */
-@media (max-width: 960px){
-    {
-        
+@media (max-width: 960px){   
 
+    section{
+        height: 60vh;
     }
+
     sobre-mim{
         height: 260vh;
     }
@@ -64,7 +69,10 @@ footer{
 
 /* MOBILE */
 @media (max-width:640px){
-    
+    section{
+        height: 50vh;
+
+    }
   
     .projetos{
         height: 200vh;
