@@ -72,7 +72,7 @@
 
 @media (max-width:640px){
     .contato{
-        height: 60vh;
+        height: 110vh;
         display: flex;
         flex-direction: column;
         gap: 50px;

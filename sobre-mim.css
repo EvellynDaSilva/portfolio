@@ -130,7 +130,7 @@
     .sobre-mim{
         display: flex;
         flex-direction: column;
-        height: 80vh;
+        height: 140vh;
     }
     .skills__icon i{
         font-size: 5.4rem;
